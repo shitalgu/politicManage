@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Party " max_length="40" name="x_420695_politics_party" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Location" max_length="40" name="location" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Delhi" value="delhi"/>
+                <element inactive_on_update="false" label="Gujrat" value="gujrat"/>
+                <element inactive_on_update="false" label="Karnataka" value="karnataka"/>
+                <element inactive_on_update="false" label="Madhya Pradesh" value="mp"/>
+                <element inactive_on_update="false" label="Uttar Pradesh" value="up"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" dependent="location" dependent_on_field="location" label="Party Name" max_length="40" name="party_name" type="choice" use_dependent_field="true">
+            <choice>
+                <element dependent_value="delhi" inactive_on_update="false" label="Bharatiya Janata Party" sequence="0" value="bjp"/>
+                <element dependent_value="mp" inactive_on_update="false" label="Communist Party of India" sequence="1" value="cpi"/>
+                <element dependent_value="delhi" inactive_on_update="false" label="Indian National Congress" sequence="2" value="inc"/>
+                <element dependent_value="up" inactive_on_update="false" label="Nationalist Congress Party." sequence="3" value="ncp"/>
+                <element dependent_value="gujrat" inactive_on_update="false" label="Bahujan Samaj Party" sequence="4" value="bsp"/>
+                <element dependent_value="karnataka" inactive_on_update="false" label="All India Trinamool Congress[E]" sequence="5" value="aitc"/>
+                <element dependent_value="karnataka" inactive_on_update="false" label="National People's Party[E]" sequence="6" value="npp"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Priority" max_length="40" name="priority" type="choice">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="SubParty Name" max_length="40" name="subparty_name" type="choice">
+            <choice/>
+        </element>
+    </element>
+</database>

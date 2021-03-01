@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script/>
+        <description/>
+        <direct>false</direct>
+        <endpoint>x_420695_politics_angular_app.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous"></link>
+	
+	<div ng-app="">
+	
+	<input type="text" ng-model="my_var" placeholder="Enter text here"></input>
+	{{my_var}}
+ 	
+
+	<div class="form-check">
+		<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"></input>
+  <label class="form-check-label" for="flexCheckDefault">
+    Default checkbox
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked"></input>
+  <label class="form-check-label" for="flexCheckChecked">
+    Checked checkbox
+  </label>
+</div>
+	</div>
+</j:jelly>
+]]></html>
+        <name>angular_app</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-28 16:40:38</sys_created_on>
+        <sys_id>a4c8a666db62201056365fc74b961906</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>angular_app</sys_name>
+        <sys_package display_value="Politics Management" source="x_420695_politics">bd4c562adb22201056365fc74b9619cc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Politics Management">bd4c562adb22201056365fc74b9619cc</sys_scope>
+        <sys_update_name>sys_ui_page_a4c8a666db62201056365fc74b961906</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-28 16:50:19</sys_updated_on>
+    </sys_ui_page>
+</record_update>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="party_name" table="x_420695_politics_party" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>party_name</element>
+            <name>x_420695_politics_party</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-02-28 15:53:53</sys_created_on>
+            <sys_id>4f3e1eaadb22201056365fc74b961954</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>party_name</sys_name>
+            <sys_package display_value="Politics Management" source="x_420695_politics">bd4c562adb22201056365fc74b9619cc</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Politics Management">bd4c562adb22201056365fc74b9619cc</sys_scope>
+            <sys_update_name>sys_choice_x_420695_politics_party_party_name</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-02-28 15:53:53</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>delhi</dependent_value>
+            <element>party_name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Bharatiya Janata Party</label>
+            <language>en</language>
+            <name>x_420695_politics_party</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-02-28 15:53:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c33e1eaadb22201056365fc74b961954</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-02-28 16:03:56</sys_updated_on>
+            <value>bjp</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>mp</dependent_value>
+            <element>party_name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Communist Party of India</label>
+            <language>en</language>
+            <name>x_420695_politics_party</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-02-28 15:53:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cf3e1eaadb22201056365fc74b961955</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-02-28 16:02:22</sys_updated_on>
+            <value>cpi</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>delhi</dependent_value>
+            <element>party_name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Indian National Congress</label>
+            <language>en</language>
+            <name>x_420695_politics_party</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-02-28 15:54:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fa7e1eaadb22201056365fc74b961923</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-02-28 16:03:56</sys_updated_on>
+            <value>inc</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>up</dependent_value>
+            <element>party_name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Nationalist Congress Party.</label>
+            <language>en</language>
+            <name>x_420695_politics_party</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-02-28 15:54:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fe7e1eaadb22201056365fc74b961924</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-02-28 16:02:40</sys_updated_on>
+            <value>ncp</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>gujrat</dependent_value>
+            <element>party_name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Bahujan Samaj Party</label>
+            <language>en</language>
+            <name>x_420695_politics_party</name>
+            <sequence>4</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-02-28 15:54:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b27e1eaadb22201056365fc74b961926</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-02-28 16:00:30</sys_updated_on>
+            <value>bsp</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>karnataka</dependent_value>
+            <element>party_name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>All India Trinamool Congress[E]</label>
+            <language>en</language>
+            <name>x_420695_politics_party</name>
+            <sequence>5</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-02-28 15:54:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>767e1eaadb22201056365fc74b961927</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-02-28 16:00:18</sys_updated_on>
+            <value>aitc</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>karnataka</dependent_value>
+            <element>party_name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>National People's Party[E]</label>
+            <language>en</language>
+            <name>x_420695_politics_party</name>
+            <sequence>6</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-02-28 15:54:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3a7e1eaadb22201056365fc74b961928</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-02-28 16:00:18</sys_updated_on>
+            <value>npp</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
