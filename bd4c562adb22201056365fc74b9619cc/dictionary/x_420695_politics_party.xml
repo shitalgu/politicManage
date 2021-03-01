@@ -22,6 +22,7 @@
                 <element dependent_value="karnataka" inactive_on_update="false" label="National People's Party[E]" sequence="6" value="npp"/>
             </choice>
         </element>
+        <element attributes="edge_encryption_enabled=true" label="Part Start" max_length="40" name="party_start" type="glide_date_time"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Priority" max_length="40" name="priority" type="choice">
             <choice/>
         </element>
