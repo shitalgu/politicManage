@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Party " max_length="40" name="x_420695_politics_party" type="collection">
+        <element label="Leader Name" max_length="40" name="leader_name" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Location" max_length="40" name="location" type="string">
             <choice>
                 <element inactive_on_update="false" label="Delhi" value="delhi"/>
